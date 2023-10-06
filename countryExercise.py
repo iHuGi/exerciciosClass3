@@ -1,6 +1,7 @@
 # Run pip show countryinfo to check library version
 # Run pip list to see the version of every library in our PC
 # Pull request test
+# Push Request Test
 
 from countryinfo import CountryInfo
 
@@ -18,10 +19,3 @@ print(f"Timezones: {', '.join(country.timezones())}")
 print(f"Calling Code: {', '.join(country.calling_codes())}")
 print(f"Currency: {country.currencies()}")
 print(f"Language: {', '.join(country.languages())}")
-
-
-
-
-
-
-
