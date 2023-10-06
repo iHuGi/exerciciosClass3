@@ -1,7 +1,6 @@
 # Run pip show countryinfo to check library version
 # Run pip list to see the version of every library in our PC
-# Pull request test
-# Push Request Test
+# Trying to pull while editing here
 
 from countryinfo import CountryInfo
 
