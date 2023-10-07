@@ -18,3 +18,7 @@ print(f"Timezones: {', '.join(country.timezones())}")
 print(f"Calling Code: {', '.join(country.calling_codes())}")
 print(f"Currency: {country.currencies()}")
 print(f"Language: {', '.join(country.languages())}")
+
+print("")
+print("")
+print("Testing DEV mode vs PROD, just an example")
