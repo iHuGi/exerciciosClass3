@@ -1,6 +1,6 @@
 # Run pip show countryinfo to check library version
 # Run pip list to see the version of every library in our PC
-# Trying to pull while editing here
+# This program will return info of the country selected from the user input.
 
 from countryinfo import CountryInfo
 
@@ -18,7 +18,3 @@ print(f"Timezones: {', '.join(country.timezones())}")
 print(f"Calling Code: {', '.join(country.calling_codes())}")
 print(f"Currency: {country.currencies()}")
 print(f"Language: {', '.join(country.languages())}")
-
-print("")
-print("")
-print("Testing DEV mode vs PROD, just an example")
