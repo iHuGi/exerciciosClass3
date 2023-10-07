@@ -1,6 +1,7 @@
 # Run pip show countryinfo to check library version
 # Run pip list to see the version of every library in our PC
 # This program will return info of the country selected from the user input.
+# This is a simple program, everything is in the library
 
 from countryinfo import CountryInfo
 
