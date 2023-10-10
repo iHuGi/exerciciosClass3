@@ -49,6 +49,15 @@ print("VERSION 2")
 import bcrypt
 print(f" bcrypt version: {bcrypt.__version__}")
 
+
+# bcrypt takes the string 'abc123*' and encodes it into bytes using UTF-8 encoding, 
+# then generates a salt (a random value used in the hashing process) using bcrypt.gensalt(). 
+# Finally, it computes the password hash using the bcrypt algorithm.
+
+#.decode('utf-8'): After generating the password hash, 
+# it decodes it from bytes back into a UTF-8 encoded string. 
+# This is typically done to store the hash as a string in a database or file.
+
 # Dummy data for the user dictionary
 user_data = {
     'userID1': {'username': 'Hugo', 'email': 'Hugo@gmail.com', 'password_hash': bcrypt.hashpw('abc123*'.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')},
