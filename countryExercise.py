@@ -3,6 +3,11 @@
 # This program will return info of the country selected from the user input.
 # This is a simple program, everything is in the library
 
+# Run python.exe -m pip install --upgrade pip --user to upgrade pips
+# This Python version (3.12) did not had countryinfo installed
+# Run pip install countryinfo --user to solve the problem
+
+
 from countryinfo import CountryInfo
 
 name_of_country = input("Enter your country: ")
