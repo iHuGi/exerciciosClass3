@@ -1,4 +1,3 @@
-
 """
 1. Defina um nome de utilizador e uma palavra-passe válidos
 2. Solicite ao utilizador que insira um nome de utilizador.
@@ -9,7 +8,7 @@
 7. Se o nome de utilizador estiver incorreto, exiba uma mensagem de "Nome de utilizador incorreto".
 """
 
-# VERSION 1
+# VERSION 1:
 print("VERSION 1")
 # Dummy data for the user dictionary
 user_data = {
@@ -40,11 +39,9 @@ try:
 except ValueError as e:
     print(f"Login failed: {e}")
 
-
 print("")
 
-
-# VERSION 2 with extra security, in a ideal world the passwords are stored in a database and not here
+# VERSION 2 with extra security, in a ideal world the passwords are stored in a database and not here:
 print("VERSION 2")
 import bcrypt
 print(f" bcrypt version: {bcrypt.__version__}")
@@ -86,11 +83,9 @@ try:
 except ValueError as e:
     print(f"Login failed: {e}")
 
-
 print("")
 
-
-# VERSION 3, this is a simpler version
+# VERSION 3, this is a simpler version:
 print("VERSION 3")
 username_expected = 'Hugo'
 password_expected = 'abc123*'
@@ -106,11 +101,9 @@ if username == username_expected:
 else:
     print("Invalid username")
 
-
 print("")
 
-
-# VERSION 4, limit the number of attempts a user can insert a password
+# VERSION 4, limit the number of attempts a user can insert a password:
 print("VERSION 4")
 import bcrypt
 

@@ -7,7 +7,6 @@
 # This Python version (3.12) did not had countryinfo installed
 # Run pip install countryinfo --user to solve the problem
 
-
 from countryinfo import CountryInfo
 
 name_of_country = input("Enter your country: ")

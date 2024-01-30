@@ -1,5 +1,4 @@
-
-# First Try, function to check if odd or even
+# First Try, function to check if odd or even:
 print("VERSION 1")
 def check_even_odd():
     while True:
@@ -17,11 +16,9 @@ def check_even_odd():
 # To use the function:
 check_even_odd()
 
-
 print("")
 
-
-# Second Try, function to check if odd or even
+# Second Try, function to check if odd or even:
 print("VERSION 2")
 def check_is_odd_or_even():
     while True:
@@ -40,11 +37,9 @@ def check_is_odd_or_even():
 # To use the function:
 check_is_odd_or_even()
 
-
 print("")
 
-
-# Third and final try
+# Third and final try:
 print("VERSION 3")
 def check_is_odd_or_even():
     while True:
@@ -65,5 +60,3 @@ def check_is_odd_or_even():
 
 # To use the function:
 check_is_odd_or_even()
-
-
