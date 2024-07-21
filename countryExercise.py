@@ -1,11 +1,11 @@
 # Run pip show countryinfo to check library version
 # Run pip list to see the version of every library in our PC
-# This program will return info of the country selected from the user input.
+# This program will return info of the country selected from the user input
 # This is a simple program, everything is in the library
 
 # Run python.exe -m pip install --upgrade pip --user to upgrade pip tool
 # This Python version (3.12) did not had countryinfo installed which cause the problem
-# Run pip install countryinfo --user to solve the problem 
+# Run pip install countryinfo --user to solve the problem
 
 from countryinfo import CountryInfo
 
